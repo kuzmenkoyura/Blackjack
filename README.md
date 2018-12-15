@@ -2,7 +2,10 @@
 Multiplayer blackjack
 
 print('Blackjack ')
+
+
 def start():
+			
 			if i == 2:
 				count = [0,0]
 			elif i == 3:
@@ -42,6 +45,7 @@ def start():
 			print('Player number %d win' %chemp)
 			game()
 def game():
+		
 		choice = input('Play again yes/no\n')
 		if choice == 'yes':
 			start()
@@ -51,6 +55,7 @@ def game():
 
 choice = input('Wanna play ? yes/no\n')
 if choice == 'yes':
+	
 	choice = input('How much players 2,3,4\n')
 	if choice == '2':
 		i=int('2')
@@ -59,7 +64,9 @@ if choice == 'yes':
 	elif choice == '4':
 		i=int('4')
 	start()
+
 elif choice == 'no':
+		
 		print('Good luck')			
 
 																		
